@@ -1,0 +1,13 @@
+name = "cloudflare-imgbed"
+compatibility_date = "2026-04-26"
+pages_build_output_dir = "./"
+
+# 绑定kv
+[[kv_namespaces]]
+binding = "img_url"
+id = "10c566bfc4394ac792597d8c3fb3a694"
+
+# R2 绑定
+[[r2_buckets]]
+binding = "img_r2"
+bucket_name = "img-r2"
